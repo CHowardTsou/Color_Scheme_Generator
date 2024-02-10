@@ -1,0 +1,46 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <main>
+            <div class="choose-tap">
+                <input type="color" id="seed-color"/>
+                <select class="mode" id="mode-select">
+                    <option value="monochrome">monochrome</option>
+                    <option value="monochrome-dark">monochrome-dark</option>
+                    <option value="monochrome-light">monochrome-light</option>
+                    <option value="analogic">analogic</option>
+                    <option value="complement">complement</option>
+                    <option value="analogic-complement">analogic-complement</option>
+                    <option value="triad">triad</option>
+                    <option value="quad">quad</option>
+                </select>
+                <button id="btn-get">Get color scheme</button>
+            </div>
+        
+            <div class="display-color" id="display-color">
+                <div class="sec1" id="sec1"></div>
+                <div class="sec2" id="sec2"></div>
+                <div class="sec3" id="sec3"></div>
+                <div class="sec4" id="sec4"></div>
+                <div class="sec5" id="sec5"></div>
+                <div class="hex1" id="hex1" ></div>
+                <div class="hex2" id="hex2" ></div>
+                <div class="hex3" id="hex3" ></div>
+                <div class="hex4" id="hex4" ></div>
+                <div class="hex5" id="hex5" ></div>
+            </div>
+            
+        
+                
+            
+            
+        </main>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
